@@ -1,0 +1,43 @@
+// carpalx layouts
+// see http://mkweb.bcgsc.ca/carpalx/
+
+// xkb keymap prepared by sven moritz hallberg <pesco@khjk.org>
+// see http://www.khjk.org/log/2011/jan/carpalx.html
+// copyright 2011, isc license
+
+
+// to use, copy to /usr/share/X11/xkb/symbols/carpalx and add the following
+// lines to /usr/share/X11/xkb/symbols.dir:
+//
+//     -dp----- a------- carpalx(qgmlwb)
+//     --p----- a------- carpalx(qgmlwy)
+//     --p----- a------- carpalx(qfmlwy)
+//     --p----- a------- carpalx(qwkrfy)
+//     --p----- a------- carpalx(qwyrfm)
+//     --p----- a------- carpalx(tnwmlc)
+//
+// then load with, e.g.
+//
+//     setxkbmap carpalx                            # defaults to QGMLWB
+//     setxkbmap -layout carpalx -variant qwkrfy    # to select other variants
+
+
+default
+partial alphanumeric_keys
+xkb_symbols "qwkrfy3" {
+
+    include "latin"
+    include "latin(nodeadkeys)"
+
+    name[Group1] = "QWKRFY3 - 3 keys swapped wrt. QWERTY";
+
+    key <AD03>	{ [         k,          K,          kra,    ampersand ]	};
+    key <AD05>	{ [         f,          F,      dstroke,  ordfeminine ]	};
+    key <AD09>	{ [         j,          J ]	};
+
+    key <AC04>	{ [         t,          T,       tslash,       Tslash ]	};
+    key <AC07>	{ [         o,          O,       oslash,     Ooblique ]	};
+    key <AC08>	{ [         e,          E ]	};
+
+
+};

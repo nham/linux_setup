@@ -5,3 +5,8 @@ export PATH=~/.cabal/bin:~/bin:$PATH
 function pseudo() {
     python -m pseudoscience "$@"
 }
+
+function iimon() {
+    tail -f out | awk '{ printf("\033[2;31m%s %s\033[0m ", $1, $2); for(i=3; i<NF; i++) { printf("%s ", $i) } printf("\n") }'
+}
+

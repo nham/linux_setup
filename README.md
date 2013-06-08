@@ -15,7 +15,7 @@ Just starts X
 
 ## ~/.xinitrc
 
-Starts the urxvtd daemon, sets keyboard to my custom layout (see below) with caps and escape swapped, enables Ctrl+Alt+Backspace to kill X, key repeat rate increased, turns off horrible deafening bell, set up desktop background, source Xresources and start xmonad.
+Starts the urxvtd daemon, sets keyboard to my custom layout (see below) with caps and escape swapped, enables Ctrl+Alt+Backspace to kill X, key repeat rate increased, turns off horrible deafening bell, set up desktop background, source Xresources and start dwm.
 
 ## /usr/share/X11/xkb/symbols/carpalx
 

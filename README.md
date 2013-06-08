@@ -7,7 +7,7 @@ This makes a simple bash prompt with color (blue), underline and absolute paths 
 
 ## ~/.bashrc
 
-Same as for /etc/bash.bashrc, except the color here is purple. Used to distinguish between my user and root.
+Two-line command prompt. I find this much more readable. Also add ~/bin to PATH, though now that I think about it this probably shouldn't be in .bashrc? I need to re-read how exactly .bashrc and environmental variables work.
 
 
 ## ~/.bash_profile

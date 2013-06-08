@@ -37,6 +37,10 @@ I don't know Haskell but I cobbled this together using the internet. This depend
 
 You also need to install the molokai theme into .vim/colors/
 
+## ~/.inputrc
+
+Disable the goddamned bell.
+
 # Additional notes
 ## flash sound (youtube)
 In order to get this working, have to add my username to the 'audio' group. It's required by alsa?

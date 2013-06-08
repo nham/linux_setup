@@ -36,5 +36,3 @@ set cursorline
 
 
 command DT r !date +\%Y\ \%b\ \%d\ \%H:\%M:\%S
-
-set runtimepath^=~/.vim/bundle/ctrlp.vim

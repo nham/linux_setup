@@ -7,4 +7,4 @@ xset b off
 
 sh ~/.fehbg &
 xrdb ~/.Xresources
-exec dwm
+xmonad

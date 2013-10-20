@@ -1,9 +1,10 @@
 import Data.Map as M (fromList, union)
 import XMonad
+import XMonad.Hooks.DynamicLog
 import XMonad.Actions.Search (google, wikipedia, scholar, promptSearch)
 import XMonad.Prompt (greenXPConfig)
 
-main = xmonad $ defaultConfig
+main = xmonad =<< xmobar defaultConfig
     { borderWidth        = 1
     , terminal           = "urxvtc"
     , normalBorderColor  = "#000000"

@@ -31,7 +31,7 @@ Major features include setting font to Terminus and setting transparency.
 
 ## ~/.xmonad/xmonad.hs
  
-I don't know Haskell but I cobbled this together using the internet. This depends on xmonad-contrib.
+I cobbled this together when I didn't understand Haskell. At some point I  will revisit. This depends on xmonad-contrib and xmobar.
 
 ##.vimrc
 

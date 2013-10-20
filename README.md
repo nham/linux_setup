@@ -29,11 +29,9 @@ feh --bg-scale '/mnt/bits/unorg/images/tarantula_nebula_desktop.jpg'
 
 Major features include setting font to Terminus and setting transparency.
 
-## ~/dwm/config.h
-
-config.h is the DWM config. You need to follow the instructions on Arch Linux wiki to compile that crap. It includes downloading ABS and using PKGBUILD and other inscrutable things.
-
-The only change so far is Mod1Mask => Mod4Mask
+## ~/.xmonad/xmonad.hs
+ 
+I don't know Haskell but I cobbled this together using the internet. This depends on xmonad-contrib.
 
 ##.vimrc
 

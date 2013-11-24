@@ -8,3 +8,4 @@ xset b off
 sh ~/.fehbg &
 xrdb ~/.Xresources
 xmonad
+twmnd &

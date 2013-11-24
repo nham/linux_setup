@@ -1,0 +1,2 @@
+#!/bin/sh
+sleep `expr $1 \* 60` && twmnc -t "DING" --fs 32 --fg red --bg yellow --pos top_left -s 42 &

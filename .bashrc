@@ -1,6 +1,6 @@
 export PS1="\[\e[4;35m\]\u@\h \w\[\e[0m\]\n\[\e[2;31m\]:\[\e[0m\] "
 
-export PATH=~/bin:$PATH
+export PATH=~/bin:~/.cabal/bin:$PATH
 
 function pseudo() {
     python -m pseudoscience "$@"

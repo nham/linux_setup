@@ -23,7 +23,7 @@ I took the carpalx X11 keyboard setup available from carpalx website and modifie
 
 ## ~/.fehbg
 
-feh --bg-scale '/mnt/bits/unorg/images/tarantula_nebula_desktop.jpg'
+background pretties
 
 ## ~/.Xresources
 

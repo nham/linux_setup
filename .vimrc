@@ -34,14 +34,10 @@ set showbreak
 
 set cursorline
 
-nnoremap <leader>f :CtrlP<CR>
-
 set guioptions-=m   "remove menu bar
 set guioptions-=T   "remove toolbar
 set guioptions-=r   "remove right scroll bar
 set guioptions-=b   "remove bottom scroll bar
 
-
-command DT r !date +\%Y\ \%b\ \%d\ \%H:\%M:\%S
-
-set runtimepath^=~/.vim/ctrlp.vim
+command FDT r !date +\%Y\ \%b\ \%d\ \%H:\%M:\%S\ \%Z
+command DT r !date +\%a\ \%d,\ \%H:\%M:\%S\ \%Z

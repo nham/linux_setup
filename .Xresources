@@ -1,7 +1,8 @@
 ! urxvt
 !
 URxvt*geometry:                115x40
-URxvt*font:  xft:Terminus
+URxvt*font:  xft:Source Code Pro:pixelsize=14
+URxvt.letterSpace: -1
 URxvt*depth:                24
 URxvt*background:            [80]#000000
 URxvt*foreground:            [60]#ffffff

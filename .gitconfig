@@ -6,5 +6,6 @@
     st = status
     ci = commit
     co = checkout
+    br = branch
     lol =  log --graph --decorate --pretty=oneline --abbrev-commit
     lola =  log --graph --decorate --pretty=oneline --abbrev-commit --all
